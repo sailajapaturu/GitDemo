@@ -33,6 +33,7 @@ public class CartPage extends AbstractComponent {
 	
 	public CheckoutPage goToCheckout(){
 		checkoutEle.click();
+		System.out.println("go to checkout page");
 		return new CheckoutPage(driver);
 		
 	}
