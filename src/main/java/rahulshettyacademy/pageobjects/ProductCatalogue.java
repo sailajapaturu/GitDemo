@@ -45,7 +45,6 @@ public class ProductCatalogue extends AbstractComponent {
     public List<WebElement> getProductList()
     {
     	waitForElementToAppear(productsBy);
-    	System.out.println(products);
     	return products;
     }
     public WebElement getProductByName(String productName)
