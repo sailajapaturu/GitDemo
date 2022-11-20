@@ -28,6 +28,7 @@ public class OrderPage extends AbstractComponent {
 	public boolean VerifyOrderDisplay(String productName)
 	{
 		boolean match = productsNames.stream().anyMatch(product ->product.getText().equalsIgnoreCase(productName));
+		System.out.println(match);
 		return match;
 	}
 	
