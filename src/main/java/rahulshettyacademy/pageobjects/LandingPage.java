@@ -43,6 +43,8 @@ public class LandingPage extends AbstractComponent {
     	passwordEle.sendKeys(password);
     	submit.click();
     	ProductCatalogue productCatalogue = new ProductCatalogue(driver);
+		System.out.println(productCatalogue);
+
     	return productCatalogue;
 	}
 	public String getErrorMessage()
